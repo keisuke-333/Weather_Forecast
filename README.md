@@ -19,3 +19,7 @@ $ git clone https://github.com/keisuke-333/Weather_Forecast.git
 $ cd Weather_Forecast
 $ ruby execution.rb
 ```
+
+## ライセンス
+This project is licensed free.  
+ご自由にご利用ください
