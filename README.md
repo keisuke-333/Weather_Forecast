@@ -15,7 +15,7 @@ Rubyのみで作成したプログラムになります。
 
 ## インストール
 ```
-$ git clone 
-$ cd weather
-$ ruby main.rb
+$ git clone https://github.com/keisuke-333/Weather_Forecast.git
+$ cd Weather_Forecast
+$ ruby execution.rb
 ```
