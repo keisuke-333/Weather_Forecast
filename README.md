@@ -3,6 +3,9 @@
 Rubyのみで作成したプログラムになります。<br>
 ![wf](https://user-images.githubusercontent.com/65392082/96840155-0ca0c200-1485-11eb-8ef5-6841683f81ea.gif)
 
+## ディレクトリ構成図
+![wf](https://user-images.githubusercontent.com/65392082/96851197-bb97ca80-1492-11eb-8532-9523940f2405.png)
+
 ## 概要
 1. プログラムを実行すると、都道府県が一覧表示されます。
 1. 表示された一覧から、都道府県を選択。番号を入力することで選択できます。
