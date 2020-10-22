@@ -40,7 +40,7 @@ class WeatherInfo
 
   def get_weather_forecast(prefecture)
     # 外部API「OpenWeatherMap」から天気情報を取得
-    response = open(WEATHER_URL + "?q=#{prefecture["english"]}&appid=#{WEATHER_API_KEY}&units=metric&lang=ja")
+    response = open("http://api.openweathermap.org/data/2.5/forecast" + "?q=#{prefecture["english"]}&appid=#{WEATHER_API_KEY}&units=metric&lang=ja")
     # 取得したデータをJSONとして解析
     data = JSON.parse(response.read)
     # JSONデータ内の一部の情報のみ抽出しハッシュ化
