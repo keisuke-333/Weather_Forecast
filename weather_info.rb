@@ -43,7 +43,7 @@ class WeatherInfo
     response = open("http://api.openweathermap.org/data/2.5/forecast" + "?q=#{prefecture["english"]}&appid=#{WEATHER_API_KEY}&units=metric&lang=ja")
     # 取得したデータをJSONとして解析
     data = JSON.parse(response.read)
-    # JSONデータ内の一部の情報のみ抽出しハッシュ化
+    # JSONデータ内の一部の情報のみ取得しハッシュ化
     datas = { list: data["list"], prefecture_name: data["city"]["name"] }
   end
 

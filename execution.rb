@@ -1,11 +1,10 @@
-#------------------- 各種読み込み -------------------
+#------------------- 各種ライブラリやファイルの読み込み -------------------
 require "csv"
 require_relative "weather_info"
 require_relative "config"
 require "json"
 require "open-uri"
 require "date"
-require "pry"
 
 #----------- 都道府県のCSVデータを読み込み -----------
 
