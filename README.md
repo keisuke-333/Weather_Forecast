@@ -18,14 +18,3 @@ Rubyのみで作成したプログラムになります。<br>
 ※こちらのプログラムをご自身のローカル環境で実行する場合は事前に`OpenWeatherMap`の`APIキー`が必要になります。  
 
 Qiita：https://qiita.com/keisuke-333/items/7f64412ea39e1352dc1c
-
-## インストール
-```
-$ git clone https://github.com/keisuke-333/Weather_Forecast.git
-$ cd Weather_Forecast
-$ ruby execution.rb
-```
-
-## ライセンス
-This project is licensed free.  
-ご自由にご利用ください
