@@ -15,6 +15,4 @@
 1. ターミナルで実行。アプリのディレクトリ上で`ruby execution.rb`と入力することで実行される。
 1. 画面に表示されるメッセージに従い、都道府県を選択。<br>
 
-※こちらのプログラムをご自身のローカル環境で実行する場合は事前に`OpenWeatherMap`の`APIキー`が必要になります。  
-
 Qiita：https://qiita.com/keisuke-333/items/7f64412ea39e1352dc1c
